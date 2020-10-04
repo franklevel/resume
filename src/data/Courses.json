@@ -1,0 +1,38 @@
+[
+	{
+		"id": 0,
+		"label": "The NodeJS Master Class",
+		"description": "No Frameworks, No NPM, No Dependencies. This is a self-paced online course consisting of 83 video lectures, 3 large projects, 7 small projects, 6 homework assignments, a few quizzes, and a final exam.",
+		"place": "Pirple",
+		"website": "https://pirple.thinkific.com/courses/the-nodejs-master-class",
+		"url": "",
+		"modality": "Online"
+	},
+	{
+		"id": 1,
+		"label": "Let's start with Javascript",
+		"description": "Un curso introductorio desde 0 para quienes desean aprender o comprender mejor JavaScript.Este curso incluye resumenes, ejercicios constantes y workshops para que el alumno domine los conceptos basicos del lenguaje.Los conocimientos aprendidos en este curso, son indispensables para comprender mejor otros cursos y temas complejos de javascript tales como Jquery, AngularJS, NodeJS, Sencha, PhoneGap o las nuevas API's de HTML5",
+		"place": "Udemy",
+		"website": "https://www.udemy.com",
+		"url": "https://www.udemy.com/certificate/UC-V9PRLTRG/",
+		"modality": "Online"
+	},
+	{
+		"id": 2,
+		"label": "Cómo Programar para Emprendedores",
+		"description": "En Cómo Programar para Emprendedores - HTML y CSS veremos lo básico de desarrollo web, cómo crear la estructura de un sitio web y su contenido con HTML, y cómo darle una buena apariencia con CSS.",
+		"place": "Udemy",
+		"website": "https://www.udemy.com",
+		"url": "https://www.udemy.com/certificate/UC-9ME2GMDN/",
+		"modality": "Online"
+	},
+	{
+		"id": 3,
+		"label": "React Basic in Just One Hour",
+		"description": "React basis course",
+		"place": "Udemy",
+		"website": "https://www.udemy.com",
+		"url": "https://www.udemy.com/certificate/UC-IJ0C1VIC/",
+		"modality": "Online"
+	}
+]

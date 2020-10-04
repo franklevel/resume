@@ -1,0 +1,200 @@
+[
+	{
+		"id": 1,
+		"label": "Programming Languages",
+		"skills": [
+			{
+				"name": "PHP",
+				"percent": 95
+			},
+			{
+				"name": "Javascript",
+				"percent": 90
+			},
+			{
+				"name": "Python",
+				"percent": 75
+			},
+			{
+				"name": "Typescript",
+				"percent": 70
+			},
+			{
+				"name": "GOLang",
+				"percent": 65
+			}
+		]
+	},
+	{
+		"id": 2,
+		"label": "Others Languages",
+		"skills": [
+			{
+				"name": "HTML/HTML5",
+				"percent": 100
+			},
+			{
+				"name": "CSS/CSS3",
+				"percent": 95
+			},
+			{
+				"name": "LESS/SASS",
+				"percent": 95
+			}
+		]
+	},
+	{
+		"id": 3,
+		"label": "Databases ",
+		"skills": [
+			{
+				"name": "MySQL/MariaDB",
+				"percent": 90
+			},
+			{
+				"name": "PostgresSQL",
+				"percent": 85
+			},
+			{
+				"name": "SQLite3",
+				"percent": 85
+			},
+			{
+				"name": "MongoDB",
+				"percent": 76
+			}
+		]
+	},
+	{
+		"id": 4,
+		"label": "Front-end Frameworks / Libraries",
+		"skills": [
+			{
+				"name": "jQuery",
+				"percent": 95
+			},
+			{
+				"name": "ReactJS",
+				"percent": 80
+			},
+			{
+				"name": "Angular",
+				"percent": 60
+			},
+			{
+				"name": "FabricJS",
+				"percent": 90
+			}
+		]
+	},
+	{
+		"id": 5,
+		"label": "Back-End Frameworks",
+		"skills": [
+			{
+				"name": "Laravel / Lumen",
+				"percent": 95
+			},
+			{
+				"name": "Zend Framework",
+				"percent": 80
+			},
+			{
+				"name": "Symfony",
+				"percent": 90
+			},
+			{
+				"name": "Express",
+				"percent": 90
+			}
+		]
+	},
+	{
+		"id": 6,
+		"label": "Responsive Frameworks / CSS",
+		"skills": [
+			{
+				"name": "Semantic UI",
+				"percent": 100
+			},
+			{
+				"name": "Bootstrap",
+				"percent": 100
+			},
+			{
+				"name": "Materialize",
+				"percent": 100
+			},
+			{
+				"name": "Material UI",
+				"percent": 100
+			}
+		]
+	},
+	{
+		"id": 7,
+		"label": "Content Manager Systems",
+		"skills": [
+			{
+				"name": "WordPress",
+				"percent": 100
+			},
+			{
+				"name": "Joomla",
+				"percent": 100
+			},
+			{
+				"name": "Drupal",
+				"percent": 100
+			},
+			{
+				"name": "Prestashop",
+				"percent": 100
+			}
+		]
+	},
+	{
+		"id": 8,
+		"label": "Package Managers",
+		"skills": [
+			{
+				"name": "NPM",
+				"percent": 95
+			},
+			{
+				"name": "Yarn",
+				"percent": 90
+			},
+			{
+				"name": "Bower",
+				"percent": 95
+			},
+			{
+				"name": "Composer",
+				"percent": 95
+			}
+		]
+	},
+	{
+		"id": 9,
+		"label": "Versioning Controls Systems",
+		"skills": [
+			{
+				"name": "Git",
+				"percent": 90
+			},
+			{
+				"name": "Github",
+				"percent": 90
+			},
+			{
+				"name": "Gitlab",
+				"percent": 90
+			},
+			{
+				"name": "Bitbucket",
+				"percent": 90
+			}
+		]
+	}
+]
