@@ -11,7 +11,7 @@
 	{
 		"id": 1,
 		"label": "Let's start with Javascript",
-		"description": "Un curso introductorio desde 0 para quienes desean aprender o comprender mejor JavaScript.Este curso incluye resumenes, ejercicios constantes y workshops para que el alumno domine los conceptos basicos del lenguaje.Los conocimientos aprendidos en este curso, son indispensables para comprender mejor otros cursos y temas complejos de javascript tales como Jquery, AngularJS, NodeJS, Sencha, PhoneGap o las nuevas API's de HTML5",
+		"description": "An introducing course from scratch for who wish to learn and dive into Javascript. This course includes summaries, exercises and workshops.",
 		"place": "Udemy",
 		"website": "https://www.udemy.com",
 		"url": "https://www.udemy.com/certificate/UC-V9PRLTRG/",
@@ -19,8 +19,8 @@
 	},
 	{
 		"id": 2,
-		"label": "Cómo Programar para Emprendedores",
-		"description": "En Cómo Programar para Emprendedores - HTML y CSS veremos lo básico de desarrollo web, cómo crear la estructura de un sitio web y su contenido con HTML, y cómo darle una buena apariencia con CSS.",
+		"label": "How to code for entrepeneurs",
+		"description": "Basic concepts about HTML and CSS, we going to see how to create our first website by using those technologies and how to give a good look and feel using CSS.",
 		"place": "Udemy",
 		"website": "https://www.udemy.com",
 		"url": "https://www.udemy.com/certificate/UC-9ME2GMDN/",
@@ -29,7 +29,7 @@
 	{
 		"id": 3,
 		"label": "React Basic in Just One Hour",
-		"description": "React basis course",
+		"description": "This short course will cover basic and core concepts that you need to know to get up and running with ReactJS.React JS is a Javascript library for building user interfaces. It's flexible, fast, easy to learn and fun to work with. ReactJS is designed to make the process of building modular, reusable user interface components simple and intuitive.",
 		"place": "Udemy",
 		"website": "https://www.udemy.com",
 		"url": "https://www.udemy.com/certificate/UC-IJ0C1VIC/",

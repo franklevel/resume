@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Container, Grid, Typography } from '@material-ui/core';
 import Menu from './components/Menu/Menu';
 import Sidebar from './components/Sidebar/Sidebar';
 import SectionList from './components/common/SectionList';
+import Button from '@material-ui/core/Button';
 
 export default function App() {
 	return (
@@ -13,7 +14,7 @@ export default function App() {
 					<Grid item xs={12} md={3}>
 						<Sidebar />
 					</Grid>
-					<Grid item xs={12} md={8}>
+					<Grid item xs={12} md={9}>
 						<SectionList />
 						<Typography align="center" color="textSecondary">
 							Developed with React and Material UI. You don`t need to

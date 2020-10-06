@@ -4,13 +4,15 @@ import Section from './Section';
 import Experience from '../Experience/Experience';
 import Education from '../Education/Education.js';
 import Skills from '../Skills/Skills.js';
-import Portfolio from '../Portfolio/Portfolio.js';
 import Courses from '../Courses/Courses.js';
+import References from '../References/References';
 import {
+	AccountTreeOutlined,
 	AssignmentIndOutlined,
 	AssignmentTurnedInOutlined,
 	SchoolOutlined,
 	StarsOutlined,
+	SupervisorAccountOutlined,
 } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
@@ -33,7 +35,7 @@ const data = [
 		component: <Experience />,
 		data: {
 			title: 'Experience',
-			subhead: null,
+			alias: 'experience',
 			icon: <StarsOutlined />,
 		},
 	},
@@ -41,7 +43,7 @@ const data = [
 		component: <Education />,
 		data: {
 			title: 'Education',
-			subhead: null,
+			alias: 'education',
 			icon: <SchoolOutlined />,
 		},
 	},
@@ -49,7 +51,7 @@ const data = [
 		component: <Skills />,
 		data: {
 			title: 'Skills & Seniority',
-			subhead: null,
+			alias: 'skills',
 			icon: <AssignmentTurnedInOutlined />,
 		},
 	},
@@ -57,10 +59,26 @@ const data = [
 		component: <Courses />,
 		data: {
 			title: 'Courses & Certifications',
-			subhead: null,
+			alias: 'courses',
 			icon: <AssignmentIndOutlined />,
 		},
 	},
+	/* {
+		component: <References />,
+		data: {
+			title: 'References',
+			alias: 'references',
+			icon: <SupervisorAccountOutlined />,
+		},
+	},
+	{
+		component: <Courses />,
+		data: {
+			title: 'Repositories',
+			alias: 'repositories',
+			icon: <AccountTreeOutlined />,
+		},
+	}, */
 ];
 
 export default function SectionData() {
