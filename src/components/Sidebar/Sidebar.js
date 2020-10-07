@@ -8,7 +8,8 @@ import Collapse from '@material-ui/core/Collapse';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import picture from '../../assets/images/0.jpeg';
-import { Chip } from '@material-ui/core';
+import { Chip, Icon, IconButton } from '@material-ui/core';
+import { Linkedin } from 'react-feather';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -75,8 +76,8 @@ export default function Menu() {
 				</Typography>
 				<Typography paragraph>
 					I'm a seasoned software developer which loves to code and all
-					related to new technologies. I started in 2006 when I was
-					attending at the University.
+					related to new technologies. I started in 2006 while attending to
+					college.
 				</Typography>
 				<Collapse in={expanded} timeout="auto" unmountOnExit>
 					<Typography paragraph>
@@ -91,14 +92,16 @@ export default function Menu() {
 
 				<Typography variant="h6">Contact</Typography>
 				<Typography>
-					Find me in{' '}
-					<a
+					Find me in
+					<IconButton
+						color="inherit"
 						href="https://www.linkedin.com/in/frank-ruiz-ar/"
 						rel="noopener noreferrer"
 						target="_blank"
+						size="medium"
 					>
-						LinkedIn
-					</a>
+						<Linkedin size="18" />
+					</IconButton>
 				</Typography>
 				<Typography variant="h6">Languages</Typography>
 				<Chip label="Spanish" />

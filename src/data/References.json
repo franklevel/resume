@@ -1,17 +1,30 @@
 [
 	{
-		"id": 0,
+		"order": 0,
 		"name": "Juan Carlos Martinez",
-		"linkedIn": "https://www.linkedin.com/juan-carlos-martinez"
+		"position": "General Project Chief",
+		"businessName": "Santander Bank",
+		"linkedIn": "https://www.linkedin.com/in/juan-carlos-4683269/"
 	},
 	{
-		"id": 0,
-		"name": "Juan Carlos Martinez",
-		"linkedIn": "https://www.linkedin.com/juan-carlos-martinez"
+		"order": 3,
+		"name": "Agni Bermudez",
+		"position": "IT Recruiter",
+		"businessName": "Schmitman HR",
+		"linkedIn": "https://www.linkedin.com/in/agnibermudez1990/"
 	},
 	{
-		"id": 0,
-		"name": "Juan Carlos Martinez",
-		"linkedIn": "https://www.linkedin.com/juan-carlos-martinez"
+		"order": 2,
+		"name": "Francisco Nieto",
+		"position": "Chief Executive Officer",
+		"businessName": "Serinfomark S.L",
+		"linkedIn": "https://www.linkedin.com/in/paco-nieto-51aa7897/"
+	},
+	{
+		"order": 1,
+		"name": "Alenxander Langle",
+		"position": "Co-Founder and Chief Technology Officer",
+		"businessName": "Empoderada",
+		"linkedIn": "https://www.linkedin.com/in/alexanderlangle/"
 	}
 ]

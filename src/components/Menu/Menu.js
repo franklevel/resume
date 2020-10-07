@@ -39,8 +39,8 @@ const options = [
 	{ label: 'Education', value: '2', order: 1 },
 	{ label: 'Skills', value: '3', order: 2 },
 	{ label: 'Courses', value: '4', order: 3 },
-	/* { label: 'References', value: '5', order: 4 },
-	{ label: 'Repositories', value: '6', order: 5 }, */
+	{ label: 'References', value: '5', order: 4 },
+	/*{ label: 'Repositories', value: '6', order: 5 }, */
 ];
 
 const scrollTo = (elm) => {

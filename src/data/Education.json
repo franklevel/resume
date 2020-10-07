@@ -2,15 +2,15 @@
 	{
 		"id": 1,
 		"title": "Computer Science Engineer",
-		"place": "Maracay, Edo. Aragua. Venezuela",
+		"place": "Maracay, Aragua. Venezuela",
 		"university": "UPTA Federico Brito Figueroa",
 		"from": "2015",
 		"to": "2017"
 	},
 	{
 		"id": 2,
-		"title": "Computer Science Higher Technician",
-		"place": "Maracay, Edo. Aragua. Venezuela",
+		"title": "Computer Science Technician",
+		"place": "Maracay, Aragua. Venezuela",
 		"university": "UPTA Federico Brito Figueroa",
 		"from": "2013",
 		"to": "2015"

@@ -4,9 +4,11 @@ import Paper from '@material-ui/core/Paper';
 import Divider from '@material-ui/core/Divider';
 import Chip from '@material-ui/core/Chip';
 import Grid from '@material-ui/core/Grid';
+import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import data from '../../data/Skills.json';
 import { Avatar } from '@material-ui/core';
+import { deepPurple } from '@material-ui/core/colors';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -19,8 +21,11 @@ const useStyles = makeStyles((theme) => ({
 	title: {
 		flexGrow: 1,
 	},
-	chip: {
+	chipContainer: {
 		marginBottom: '0.5rem',
+	},
+	chip: {
+		flex: 1,
 	},
 	skill: {
 		padding: '1rem',
@@ -30,15 +35,28 @@ const useStyles = makeStyles((theme) => ({
 		marginTop: '0.5rem',
 		marginBotton: '0.5rem',
 	},
+	seniority: {
+		display: 'block',
+	},
 }));
 
 const Seniority = ({ percent }) => {
 	if (percent > 0 && percent <= 50) {
-		return 'jr';
+		return 'JR';
 	} else if (percent > 50 && percent <= 75) {
-		return 'ssr';
+		return 'SSR';
 	} else {
-		return 'sr';
+		return 'SR';
+	}
+};
+
+const AvatarClass = ({ classes, percent }) => {
+	if (percent > 0 && percent <= 50) {
+		return classes.junior;
+	} else if (percent > 50 && percent <= 75) {
+		return classes.semisenior;
+	} else {
+		return classes.senior;
 	}
 };
 
@@ -52,7 +70,7 @@ const SkillItem = ({ title, skills }) => {
 			<Divider className={classes.divider} />
 			<div style={{ marginTop: '1rem' }}>
 				{skills.map((skill, key) => (
-					<div className={classes.chip} key={key}>
+					<div className={classes.chipContainer} key={key}>
 						<Chip
 							avatar={
 								<Avatar>
@@ -60,8 +78,11 @@ const SkillItem = ({ title, skills }) => {
 								</Avatar>
 							}
 							label={skill.name}
-							align="right"
+							align="left"
 							variant="outlined"
+							clickable
+							className={classes.chip}
+							fullWidth
 						/>
 					</div>
 				))}

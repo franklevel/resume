@@ -1,168 +1,179 @@
 [
-  {
-    "businessName": "Boehringer Ingelheim",
-    "modality": "On site",
-    "location": "Ciudad Autónoma de Buenos Aires",
-    "country": "Argentina",
-    "from": "May 2020",
-    "to": "Present",
-    "position": "Senior Software Engineer",
-    "description": "Design and develop web applications and components by using frameworks as Symfony and Drupal. Write spikes documentation. Apply Agile mindset and Design Thinking",
-    "projects": [
-      {
-        "name": "HubNext",
-        "summary": "Custom sites deployment tools which provides built-in components.",
-        "tags": [
-          "Drupal",
-          "PHP",
-          "Symfony",
-          "Docker",
-          "Lando",
-          "Lagoon",
-          "MySQL/MariaDB"
-        ]
-      },
-      {
-        "name": "VET Locator",
-        "summary": "Custom Drupal module which provides a built-in block where we search a nearby retailer.",
-        "tags": [
-          "Drupal",
-          "PHP",
-          "Symfony",
-          "Docker",
-          "Lando",
-          "Lagoon",
-          "MySQL/MariaDB"
-        ]
-      }
-    ]
-  },
-  {
-    "businessName": "Goiar S.A.S",
-    "modality": "On site",
-    "location": "Ciudad Autónoma de Buenos Aires",
-    "country": "Argentina",
-    "from": "Jan 2019",
-    "to": "May 2020",
-    "position": "Fullstack Developer",
-    "description": "Design and develop web applications, REST API's and frontend components by using frameworks as Symfony, Laravel/Lumen, Gulp, SASS",
-    "projects": [
-      {
-        "name": "HubNext",
-        "summary": "Custom sites deployment tools which provides built-in components.",
-        "tags": [
-          "Drupal",
-          "PHP",
-          "Symfony",
-          "Docker",
-          "Lando",
-          "Lagoon",
-          "MySQL/MariaDB"
-        ]
-      },
-      {
-        "name": "Possible General Manager",
-        "summary": "It's an internal resources system manager written with Symfony 4.",
-        "tags": ["PHP", "Symfony", "Vagrant", "MySQL/MariaDB"]
-      }
-    ]
-  },
-  {
-    "businessName": "Tiarg S.A",
-    "modality": "On site",
-    "location": "Ciudad Autónoma de Buenos Aires",
-    "country": "Argentina",
-    "from": "Sep 2017",
-    "to": "Dec 2018",
-    "position": "Fullstack Developer",
-    "description": "Module development using Moodle, module development using Drupal. Moodle web service definition and integration, PHP development with Zend Framework, front-end development using AngularJS. Fullstack development using React and Koa",
-    "projects": [
-      {
-        "name": "HubNext",
-        "summary": "Custom sites deployment tools which provides built-in components.",
-        "tags": [
-          "Drupal",
-          "PHP",
-          "Symfony",
-          "Docker",
-          "Lando",
-          "Lagoon",
-          "MySQL/MariaDB"
-        ]
-      },
-      {
-        "name": "VET Locator",
-        "summary": "Custom Drupal module which provides a built-in block where we search a nearby retailer.",
-        "tags": [
-          "Drupal",
-          "PHP",
-          "Symfony",
-          "Docker",
-          "Lando",
-          "Lagoon",
-          "MySQL/MariaDB"
-        ]
-      }
-    ]
-  },
-  {
-    "businessName": "National Health Ministry",
-    "modality": "On site",
-    "location": "Maracay",
-    "country": "Venezuela",
-    "from": "Mar 2011",
-    "to": "Jul 2017",
-    "position": "Programmer",
-    "description": "PHP vanilla development using POO, PHP development with Yii Framework, front-end development with AngularJS ",
-    "projects": [
-      {
-        "name": "HubNext",
-        "summary": "Custom sites deployment tools which provides built-in components.",
-        "tags": [
-          "Drupal",
-          "PHP",
-          "Symfony",
-          "Docker",
-          "Lando",
-          "Lagoon",
-          "MySQL/MariaDB"
-        ]
-      },
-      {
-        "name": "VET Locator",
-        "summary": "Custom Drupal module which provides a built-in block where we search a nearby retailer.",
-        "tags": [
-          "Drupal",
-          "PHP",
-          "Symfony",
-          "Docker",
-          "Lando",
-          "Lagoon",
-          "MySQL/MariaDB"
-        ]
-      }
-    ]
-  },
-  {
-    "businessName": "Software Agil LTDA. Santiago de Chile. Chile",
-    "modality": "Freelance",
-    "location": "Buenos Aires",
-    "country": "Argentina",
-    "from": "Mar 2012",
-    "to": "Present",
-    "position": "Software Developer",
-    "description": "PHP vanilla development using POO, PHP development with Yii Framework, front-end development with AngularJS ",
-    "projects": []
-  },
-  {
-    "businessName": "Conexa S.A",
-    "modality": "Freelance",
-    "location": "Buenos Aires",
-    "country": "Argentina",
-    "from": "Mar 2030",
-    "to": "Present",
-    "position": "Senior Software Developer",
-    "description": "PHP vanilla development using POO, PHP development with Yii Framework, front-end development with AngularJS ",
-    "projects": []
-  }
+	{
+		"businessName": "Boehringer Ingelheim",
+		"modality": "On site",
+		"location": "Ciudad Autónoma de Buenos Aires",
+		"country": "Argentina",
+		"from": "May 2020",
+		"to": "Present",
+		"position": "Senior Software Engineer",
+		"description": "Design and develop web applications and components by using frameworks as Symfony and Drupal. Write spikes documentation. Apply Agile mindset and Design Thinking",
+		"projects": [
+			{
+				"name": "HubNext",
+				"summary": "Custom sites deployment tools which provides built-in components.",
+				"tags": [
+					"Drupal",
+					"PHP",
+					"Symfony",
+					"Docker",
+					"Lando",
+					"Lagoon",
+					"MySQL/MariaDB"
+				]
+			},
+			{
+				"name": "VET Locator",
+				"summary": "Custom Drupal module which provides a built-in block where we search a nearby retailer.",
+				"tags": [
+					"Drupal",
+					"PHP",
+					"Symfony",
+					"Docker",
+					"Lando",
+					"Lagoon",
+					"MySQL/MariaDB"
+				]
+			}
+		]
+	},
+	{
+		"businessName": "Goiar S.A.S",
+		"modality": "On site",
+		"location": "Ciudad Autónoma de Buenos Aires",
+		"country": "Argentina",
+		"from": "Jan 2019",
+		"to": "May 2020",
+		"position": "Fullstack Developer",
+		"description": "Design and develop web applications, REST API's and frontend components by using frameworks as Symfony, Laravel/Lumen, Gulp, SASS",
+		"projects": [
+			{
+				"name": "HubNext",
+				"summary": "Custom sites deployment tools which provides built-in components.",
+				"tags": [
+					"Drupal",
+					"PHP",
+					"Symfony",
+					"Docker",
+					"Lando",
+					"Lagoon",
+					"MySQL/MariaDB"
+				]
+			},
+			{
+				"name": "Possible General Manager",
+				"summary": "It's an internal resources system manager written with Symfony 4.",
+				"tags": ["PHP", "Symfony", "Vagrant", "MySQL/MariaDB"]
+			}
+		]
+	},
+	{
+		"businessName": "Tiarg S.A",
+		"modality": "On site",
+		"location": "Ciudad Autónoma de Buenos Aires",
+		"country": "Argentina",
+		"from": "Sep 2017",
+		"to": "Dec 2018",
+		"position": "Fullstack Developer",
+		"description": "Module development using Moodle, module development using Drupal. Moodle web service definition and integration, PHP development with Zend Framework, front-end development using AngularJS. Fullstack development using React and Koa",
+		"projects": [
+			{
+				"name": "HubNext",
+				"summary": "Custom sites deployment tools which provides built-in components.",
+				"tags": [
+					"Drupal",
+					"PHP",
+					"Symfony",
+					"Docker",
+					"Lando",
+					"Lagoon",
+					"MySQL/MariaDB"
+				]
+			},
+			{
+				"name": "VET Locator",
+				"summary": "Custom Drupal module which provides a built-in block where we search a nearby retailer.",
+				"tags": [
+					"Drupal",
+					"PHP",
+					"Symfony",
+					"Docker",
+					"Lando",
+					"Lagoon",
+					"MySQL/MariaDB"
+				]
+			}
+		]
+	},
+	{
+		"businessName": "National Health Ministry",
+		"modality": "On site",
+		"location": "Maracay",
+		"country": "Venezuela",
+		"from": "Mar 2011",
+		"to": "Jul 2017",
+		"position": "Programmer",
+		"description": "PHP vanilla development using POO, PHP development with Yii Framework, front-end development with AngularJS ",
+		"projects": [
+			{
+				"name": "HubNext",
+				"summary": "Custom sites deployment tools which provides built-in components.",
+				"tags": [
+					"Drupal",
+					"PHP",
+					"Symfony",
+					"Docker",
+					"Lando",
+					"Lagoon",
+					"MySQL/MariaDB"
+				]
+			},
+			{
+				"name": "VET Locator",
+				"summary": "Custom Drupal module which provides a built-in block where we search a nearby retailer.",
+				"tags": [
+					"Drupal",
+					"PHP",
+					"Symfony",
+					"Docker",
+					"Lando",
+					"Lagoon",
+					"MySQL/MariaDB"
+				]
+			}
+		]
+	},
+	{
+		"businessName": "Software Agil",
+		"modality": "Freelance",
+		"location": "Santiago",
+		"country": "Chile",
+		"from": "Mar 2012",
+		"to": "Present",
+		"position": "Software Developer",
+		"description": "PHP vanilla development using POO, PHP development with Yii Framework, front-end development with AngularJS ",
+		"projects": []
+	},
+	{
+		"businessName": "Conexa S.A",
+		"modality": "Freelance",
+		"location": "Buenos Aires",
+		"country": "Argentina",
+		"from": "Mar 2020",
+		"to": "Present",
+		"position": "Senior Software Developer",
+		"description": "PHP vanilla development using POO, PHP development with Yii Framework, front-end development with AngularJS ",
+		"projects": []
+	},
+	{
+		"businessName": "Serinfomark S.A",
+		"modality": "Freelance",
+		"location": "Sevilla",
+		"country": "Spain",
+		"from": "Nov 2017",
+		"to": "Present",
+		"position": "Prestashop Developer",
+		"description": "Prestashop module development using PHP and Symfony for branch 1.7.x. Theme customizing.",
+		"projects": []
+	}
 ]

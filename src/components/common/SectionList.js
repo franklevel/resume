@@ -63,7 +63,7 @@ const data = [
 			icon: <AssignmentIndOutlined />,
 		},
 	},
-	/* {
+	{
 		component: <References />,
 		data: {
 			title: 'References',
@@ -71,7 +71,7 @@ const data = [
 			icon: <SupervisorAccountOutlined />,
 		},
 	},
-	{
+	/* {
 		component: <Courses />,
 		data: {
 			title: 'Repositories',
