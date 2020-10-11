@@ -5,6 +5,7 @@ import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import data from '../../data/References.json';
 import { Linkedin } from 'react-feather';
+import { Tooltip } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -33,13 +34,15 @@ export default function References() {
 						<Typography color="textSecondary">
 							{elm.position} at {elm.businessName}
 						</Typography>
-						<IconButton
-							href={elm.linkedIn}
-							color="primary"
-							variant="outlined"
-						>
-							<Linkedin size="18" />
-						</IconButton>
+						<Tooltip title="Open in LinkedIn">
+							<IconButton
+								href={elm.linkedIn}
+								color="primary"
+								variant="outlined"
+							>
+								<Linkedin size="18" />
+							</IconButton>
+						</Tooltip>
 						{key < data.length - 1 ? (
 							<Divider className={classes.divider} />
 						) : null}

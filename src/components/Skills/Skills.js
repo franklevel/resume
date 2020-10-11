@@ -4,11 +4,10 @@ import Paper from '@material-ui/core/Paper';
 import Divider from '@material-ui/core/Divider';
 import Chip from '@material-ui/core/Chip';
 import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
+import Tooltip from '@material-ui/core/Tooltip';
 import Typography from '@material-ui/core/Typography';
 import data from '../../data/Skills.json';
 import { Avatar } from '@material-ui/core';
-import { deepPurple } from '@material-ui/core/colors';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -40,14 +39,17 @@ const useStyles = makeStyles((theme) => ({
 	},
 }));
 
-const Seniority = ({ percent }) => {
+const Seniority = ({ percent, abbr, skill }) => {
+	let seniority;
 	if (percent > 0 && percent <= 50) {
-		return 'JR';
+		seniority = abbr ? 'JUNIOR' : 'JR';
 	} else if (percent > 50 && percent <= 75) {
-		return 'SSR';
+		seniority = abbr ? 'SEMI-SENIOR' : 'SSR';
 	} else {
-		return 'SR';
+		seniority = abbr ? 'SENIOR' : 'SR';
 	}
+
+	return skill ? seniority + ' level in ' + skill.name : seniority;
 };
 
 const AvatarClass = ({ classes, percent }) => {
@@ -71,19 +73,25 @@ const SkillItem = ({ title, skills }) => {
 			<div style={{ marginTop: '1rem' }}>
 				{skills.map((skill, key) => (
 					<div className={classes.chipContainer} key={key}>
-						<Chip
-							avatar={
-								<Avatar>
-									<Seniority percent={skill.percent} />
-								</Avatar>
+						<Tooltip
+							title={
+								<Seniority percent={skill.percent} skill={skill} abbr />
 							}
-							label={skill.name}
-							align="left"
-							variant="outlined"
-							clickable
-							className={classes.chip}
-							fullWidth
-						/>
+						>
+							<Chip
+								avatar={
+									<Avatar>
+										<Seniority percent={skill.percent} />
+									</Avatar>
+								}
+								label={skill.name}
+								align="left"
+								variant="outlined"
+								clickable
+								className={classes.chip}
+								fullWidth
+							/>
+						</Tooltip>
 					</div>
 				))}
 			</div>

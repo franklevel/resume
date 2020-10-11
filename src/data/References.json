@@ -1,5 +1,6 @@
 [
 	{
+		"alias": "JM",
 		"order": 0,
 		"name": "Juan Carlos Martinez",
 		"position": "General Project Chief",
@@ -7,6 +8,15 @@
 		"linkedIn": "https://www.linkedin.com/in/juan-carlos-4683269/"
 	},
 	{
+		"alias": "YQ",
+		"order": 1,
+		"name": "Yanina Quinteros",
+		"position": "Senior Quality Assurance Engineer",
+		"businessName": "Goiar",
+		"linkedIn": "https://www.linkedin.com/in/yanina-veronica-quinteros/"
+	},
+	{
+		"alias": "AB",
 		"order": 3,
 		"name": "Agni Bermudez",
 		"position": "IT Recruiter",
@@ -14,6 +24,7 @@
 		"linkedIn": "https://www.linkedin.com/in/agnibermudez1990/"
 	},
 	{
+		"alias": "FN",
 		"order": 2,
 		"name": "Francisco Nieto",
 		"position": "Chief Executive Officer",
@@ -21,6 +32,7 @@
 		"linkedIn": "https://www.linkedin.com/in/paco-nieto-51aa7897/"
 	},
 	{
+		"alias": "AL",
 		"order": 1,
 		"name": "Alenxander Langle",
 		"position": "Co-Founder and Chief Technology Officer",

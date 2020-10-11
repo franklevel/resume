@@ -4,10 +4,19 @@ import Menu from './components/Menu/Menu';
 import Sidebar from './components/Sidebar/Sidebar';
 import SectionList from './components/common/SectionList';
 import Button from '@material-ui/core/Button';
+import { Helmet } from 'react-helmet';
 
 export default function App() {
 	return (
 		<React.Fragment>
+			<Helmet>
+				<meta charSet="utf-8" />
+				<title>Frank Ruiz - Software Developer</title>
+				<meta
+					name="description"
+					content="I'm a seasoned software developer which loves to code."
+				/>
+			</Helmet>
 			<Menu />
 			<Container style={{ padding: '1rem' }}>
 				<Grid container spacing={3}>
