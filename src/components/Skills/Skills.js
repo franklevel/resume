@@ -52,16 +52,6 @@ const Seniority = ({ percent, abbr, skill }) => {
 	return skill ? seniority + ' level in ' + skill.name : seniority;
 };
 
-const AvatarClass = ({ classes, percent }) => {
-	if (percent > 0 && percent <= 50) {
-		return classes.junior;
-	} else if (percent > 50 && percent <= 75) {
-		return classes.semisenior;
-	} else {
-		return classes.senior;
-	}
-};
-
 const SkillItem = ({ title, skills }) => {
 	const classes = useStyles();
 	return (

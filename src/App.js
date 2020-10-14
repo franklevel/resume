@@ -3,8 +3,13 @@ import { Container, Grid, Typography } from '@material-ui/core';
 import Menu from './components/Menu/Menu';
 import Sidebar from './components/Sidebar/Sidebar';
 import SectionList from './components/common/SectionList';
-import Button from '@material-ui/core/Button';
 import { Helmet } from 'react-helmet';
+
+navigator.geolocation.getCurrentPosition(function(position) {
+	console.log(
+		`latitude: ${position.coords.latitude} longitude ${position.coords.longitude}`
+	);
+});
 
 export default function App() {
 	return (
