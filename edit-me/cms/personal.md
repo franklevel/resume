@@ -1,9 +1,10 @@
 ---
-location: Placeholder, TX
-familyName: Body
-givenName: Some
-title: Official Job Title
+location: Buenos Aires, AR
+familyName: Ruiz
+givenName: Frank
+title: Software Developer
 twitterUsername: some_body
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra.
+I love technology because is one of the greatest things that help us to evolve as human beings.
+I still remember when I saw a computer for the first time, it was amazing and today I'm still fascinated.
