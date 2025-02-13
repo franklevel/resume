@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/en"
+    },
+    {
+      "src": "/(?!en|es).*",
+      "dest": "/en"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
