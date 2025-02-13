@@ -1,0 +1,12 @@
+{
+  "menu": {
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "portfolio": "Portfolio"
+  },
+  "language": {
+    "english": "English",
+    "spanish": "Spanish"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "profile": {
+    "description": "Software developer with over 4 years of experience in full-stack development, skilled in Node.js, AWS, and React. Strong focus on delivering scalable solutions and implementing modern development practices."
+  },
+  "experience": [
+    {
+      "title": "NodeJS Developer",
+      "company": "Distillery",
+      "period": "August 2024 - December 2024",
+      "achievements": [
+        "Developed scalable backend solutions for AttorneyShare using Node.js, TypeScript, and AWS",
+        "Implemented robust API endpoints and services",
+        "Collaborated with cross-functional teams to deliver high-quality solutions"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "DMI (Digital Management, LLC)",
+      "period": "January 2023 - March 2024",
+      "achievements": [
+        "Led development on Ristrak using Java, Spring Framework, and Angular",
+        "Built GRS Surety Admin Offices with Node.js, React, and AWS Lambda",
+        "Developed GRS Surety KYC screening application using modern tech stack",
+        "Implemented CI/CD pipelines and automated testing workflows"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Foxbox Digital",
+      "period": "June 2021 - July 2022",
+      "achievements": [
+        "Developed Sydney Health mobile telehealth app using React Native",
+        "Built Hoddie cannabis industry analytics PWA with AWS Lambda and GraphQL",
+        "Created content creator platform using Next.js and AWS services"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Boehringer Ingelheim",
+      "period": "July 2020 - June 2021",
+      "achievements": [
+        "Developed HubNext using Drupal, Symfony, and modern PHP practices",
+        "Implemented RESTful APIs and microservices architecture",
+        "Maintained high code quality through unit testing and code reviews"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Engineer's degree, Computer Software Engineering",
+      "school": "Universidad Politécnica Territorial de Aragua (UPTA)",
+      "period": "2015-2017",
+      "details": "Focus on software development and engineering principles"
+    },
+    {
+      "degree": "Bachelor of Technology - BTech, Computer Software Engineering",
+      "school": "Universidad Politécnica Territorial de Aragua (UPTA)",
+      "period": "2013-2015",
+      "details": "Foundation in computer science and software engineering"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend",
+      "items": "Node.js, Express, Java, Spring Framework, PHP, Drupal, Laravel/Lumen"
+    },
+    {
+      "category": "Frontend",
+      "items": "React, React Native, Angular, TypeScript, JavaScript"
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": "AWS Lambda, AWS Aurora, AWS Cognito, AWS S3, CI/CD"
+    },
+    {
+      "category": "Databases",
+      "items": "MongoDB, PostgreSQL, DynamoDB, Aurora DB"
+    },
+    {
+      "category": "Testing",
+      "items": "Jest, PHPUnit, Software Testing Principles"
+    },
+    {
+      "category": "Tools",
+      "items": "Git, Docker, Bamboo, JIRA, Agile"
+    }
+  ],
+  "projects": [
+    {
+      "title": "AttorneyShare",
+      "technologies": "Node.js • TypeScript • AWS",
+      "description": "Developed scalable backend solutions for a legal professional platform, implementing secure API endpoints and efficient data handling."
+    },
+    {
+      "title": "Sydney Health Mobile Telehealth",
+      "technologies": "React Native • TypeScript • REST API",
+      "description": "Built a telehealth mobile application enabling remote medical consultations and health monitoring."
+    },
+    {
+      "title": "Hoddie Cannabis Industry Analytics",
+      "technologies": "AWS Lambda • Node.js • GraphQL • Hasura",
+      "description": "Created an analytics PWA for the cannabis industry, implementing complex data visualization and real-time analytics."
+    },
+    {
+      "title": "Content Creator Platform",
+      "technologies": "Next.js • AWS • TypeScript",
+      "description": "Built a SaaS platform for content creators with features for content management, user engagement, and analytics."
+    },
+    {
+      "title": "Unused Dependencies Analyzer",
+      "technologies": "Node.js • TypeScript • NPM Package",
+      "description": "Created an NPM package that analyzes and identifies unused dependencies in Node.js projects, helping developers maintain clean and efficient codebases. Features interactive CLI and detailed package analysis."
+    }
+  ]
+}

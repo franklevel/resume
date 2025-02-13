@@ -1,0 +1,110 @@
+{
+  "profile": {
+    "description": "Desarrollador de software con más de 4 años de experiencia en desarrollo full-stack, especializado en Node.js, AWS y React. Enfocado en entregar soluciones escalables e implementar prácticas modernas de desarrollo."
+  },
+  "experience": [
+    {
+      "title": "Desarrollador NodeJS",
+      "company": "Distillery",
+      "period": "Agosto 2024 - Diciembre 2024",
+      "achievements": [
+        "Desarrollé soluciones backend escalables para AttorneyShare usando Node.js, TypeScript y AWS",
+        "Implementé endpoints y servicios API robustos",
+        "Colaboré con equipos multifuncionales para entregar soluciones de alta calidad"
+      ]
+    },
+    {
+      "title": "Desarrollador de Software",
+      "company": "DMI (Digital Management, LLC)",
+      "period": "Enero 2023 - Marzo 2024",
+      "achievements": [
+        "Lideré el desarrollo de Ristrak utilizando Java, Spring Framework y Angular",
+        "Construí GRS Surety Admin Offices con Node.js, React y AWS Lambda",
+        "Desarrollé la aplicación de verificación KYC de GRS Surety usando stack tecnológico moderno",
+        "Implementé pipelines de CI/CD y flujos de trabajo de pruebas automatizadas"
+      ]
+    },
+    {
+      "title": "Ingeniero de Software",
+      "company": "Foxbox Digital",
+      "period": "Junio 2021 - Julio 2022",
+      "achievements": [
+        "Desarrollé la aplicación móvil de telesalud Sydney Health usando React Native",
+        "Construí la PWA de análisis de la industria del cannabis Hoddie con AWS Lambda y GraphQL",
+        "Creé una plataforma para creadores de contenido usando Next.js y servicios AWS"
+      ]
+    },
+    {
+      "title": "Ingeniero de Software",
+      "company": "Boehringer Ingelheim",
+      "period": "Julio 2020 - Junio 2021",
+      "achievements": [
+        "Desarrollé HubNext usando Drupal, Symfony y prácticas modernas de PHP",
+        "Implementé APIs RESTful y arquitectura de microservicios",
+        "Mantuve alta calidad de código a través de pruebas unitarias y revisiones de código"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ingeniería en Informática",
+      "school": "Universidad Politécnica Territorial de Aragua (UPTA)",
+      "period": "2015-2017",
+      "details": "Enfoque en desarrollo de software y principios de ingeniería"
+    },
+    {
+      "degree": "TSU en Informática",
+      "school": "Universidad Politécnica Territorial de Aragua (UPTA)",
+      "period": "2013-2015",
+      "details": "Base en ciencias de la computación e ingeniería de software"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend",
+      "items": "Node.js, Express, Java, Spring Framework, PHP, Drupal, Laravel/Lumen"
+    },
+    {
+      "category": "Frontend",
+      "items": "React, React Native, Angular, TypeScript, JavaScript"
+    },
+    {
+      "category": "Nube y DevOps",
+      "items": "AWS Lambda, AWS Aurora, AWS Cognito, AWS S3, CI/CD"
+    },
+    {
+      "category": "Bases de Datos",
+      "items": "MongoDB, PostgreSQL, DynamoDB, Aurora DB"
+    },
+    {
+      "category": "Pruebas",
+      "items": "Jest, PHPUnit, Principios de Pruebas de Software"
+    },
+    {
+      "category": "Herramientas",
+      "items": "Git, Docker, Bamboo, JIRA, Agile"
+    }
+  ],
+  "projects": [
+    {
+      "title": "AttorneyShare",
+      "technologies": "Node.js • TypeScript • AWS",
+      "description": "Desarrollé soluciones backend escalables para una plataforma de profesionales legales, implementando endpoints API seguros y manejo eficiente de datos."
+    },
+    {
+      "title": "Sydney Health Telesalud Móvil",
+      "technologies": "React Native • TypeScript • REST API",
+      "description": "Construí una aplicación móvil de telesalud que permite consultas médicas remotas y monitoreo de salud."
+    },
+    {
+      "title": "Análisis de Industria Cannabis Hoddie",
+      "technologies": "AWS Lambda • Node.js • GraphQL • Hasura",
+      "description": "Creé una PWA de análisis para la industria del cannabis, implementando visualización de datos compleja y análisis en tiempo real."
+    },
+    {
+      "title": "Plataforma para Creadores de Contenido",
+      "technologies": "Next.js • AWS • TypeScript",
+      "description": "Construí una plataforma SaaS para creadores de contenido con funciones de gestión de contenido, participación de usuarios y análisis."
+    }
+  ]
+}

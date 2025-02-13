@@ -1,0 +1,12 @@
+{
+  "menu": {
+    "experience": "Experiencia",
+    "education": "Educación",
+    "skills": "Habilidades",
+    "portfolio": "Proyectos"
+  },
+  "language": {
+    "english": "Inglés",
+    "spanish": "Español"
+  }
+}
