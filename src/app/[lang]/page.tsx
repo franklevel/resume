@@ -12,7 +12,7 @@ export async function generateStaticParams() {
   ];
 }
 
-export default function Home({
+export default async function Home({
   params: { lang },
 }: {
   params: { lang: string };
