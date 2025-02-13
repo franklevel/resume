@@ -12,11 +12,15 @@ export async function generateStaticParams() {
   ];
 }
 
-export default async function Home({
-  params: { lang },
-}: {
-  params: { lang: string };
-}) {
+type Props = {
+  params: {
+    lang: string
+  }
+}
+
+export default function Home({ params }: Props) {
+  const { lang } = params;
+  
   return (
     <main className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Menu language={lang} />
