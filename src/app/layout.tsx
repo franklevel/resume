@@ -14,14 +14,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Frank's Resume",
-  description: "Professional resume and portfolio",
+  title: "Frank Ruiz - Resume",
+  description: "Software developer with experience in full-stack development",
 };
 
 export default function RootLayout({
   children,
 }: {
-  readonly children: React.ReactNode;
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
