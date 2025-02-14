@@ -5,11 +5,7 @@ export const dynamic = 'force-static';
 export const dynamicParams = false;
 export const revalidate = 3600;
 
-interface Props {
-  params: {
-    lang: string;
-  };
-}
+export type ParamsType = Promise<{ lang: string }>;
 
 export async function generateStaticParams() {
   return [
@@ -19,15 +15,17 @@ export async function generateStaticParams() {
 }
 
 // Pre-load data at build time
-export async function generateMetadata({ params }: Props) {
-  const resumeData = await loadResumeData(params.lang);
+export async function generateMetadata({ params }: { params: ParamsType }) {
+  const { lang } = await params;
+  const resumeData = await loadResumeData(lang);
   return {
     title: `${resumeData.profile.description.split('.')[0]} - Resume`,
     description: resumeData.profile.description,
   };
 }
 
-export default async function Home({ params }: Props) {
-  const resumeData = await loadResumeData(params.lang);
-  return <ResumeContent lang={params.lang} resumeData={resumeData} />;
+export default async function Home({ params }: { params: ParamsType }) {
+  const { lang } = await params;
+  const resumeData = await loadResumeData(lang);
+  return <ResumeContent lang={lang} resumeData={resumeData} />;
 }
