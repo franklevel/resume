@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import resumeDataEn from '@/data.json';
 import resumeDataEs from '@/data.es.json';
