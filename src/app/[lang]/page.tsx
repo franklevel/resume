@@ -11,10 +11,13 @@ export async function generateStaticParams() {
   ];
 }
 
-export default function Home({
-  params: { lang },
-}: {
-  params: { lang: string }
-}) {
+interface PageProps {
+  params: Promise<{
+    lang: string;
+  }>;
+}
+
+export default async function Home({ params }: PageProps) {
+  const { lang } = await params;
   return <PageContent lang={lang} />;
 }
