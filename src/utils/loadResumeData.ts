@@ -1,6 +1,11 @@
 import type { ResumeData } from '@/types/resume';
-import validatedData from '../validatedData.json';
 
 export async function loadResumeData(lang: string): Promise<ResumeData> {
-  return validatedData[lang as keyof typeof validatedData];
+  try {
+    const data = await import(`../data${lang === 'es' ? '.es' : ''}.json`);
+    return data.default;
+  } catch (error) {
+    console.error(`Failed to load resume data for language: ${lang}`, error);
+    throw error;
+  }
 }

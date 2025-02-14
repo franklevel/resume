@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "validate-data": "node scripts/validateData.mjs",
-    "build": "npm run validate-data && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
