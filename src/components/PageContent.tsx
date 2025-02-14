@@ -2,10 +2,11 @@
 
 import MenuWrapper from './MenuWrapper';
 import SectionList from './common/SectionList';
+import type { ResumeData } from '@/types/resume';
 
 interface PageContentProps {
   readonly lang: string;
-  readonly resumeData: any; // Replace with proper type when available
+  readonly resumeData: ResumeData;
 }
 
 export default function PageContent({ lang, resumeData }: PageContentProps) {

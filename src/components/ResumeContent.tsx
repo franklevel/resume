@@ -1,7 +1,8 @@
 import { cache } from 'react'
 import PageContent from './PageContent';
+import type { ResumeData } from '@/types/resume';
 
-const getResumeData = cache(async (lang: string) => {
+const getResumeData = cache(async (lang: string): Promise<ResumeData> => {
   const data = await import(`../data${lang === 'es' ? '.es' : ''}.json`);
   return data.default;
 });
