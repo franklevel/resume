@@ -1,8 +1,15 @@
 import ResumeContent from '@/components/ResumeContent';
+import { loadResumeData } from '@/utils/loadResumeData';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
 export const revalidate = 3600;
+
+interface Props {
+  params: {
+    lang: string;
+  };
+}
 
 export async function generateStaticParams() {
   return [
@@ -11,13 +18,16 @@ export async function generateStaticParams() {
   ];
 }
 
-interface PageProps {
-  params: Promise<{
-    lang: string;
-  }>;
+// Pre-load data at build time
+export async function generateMetadata({ params }: Props) {
+  const resumeData = await loadResumeData(params.lang);
+  return {
+    title: `${resumeData.profile.description.split('.')[0]} - Resume`,
+    description: resumeData.profile.description,
+  };
 }
 
-export default async function Home({ params }: PageProps) {
-  const { lang } = await params;
-  return <ResumeContent lang={lang} />;
+export default async function Home({ params }: Props) {
+  const resumeData = await loadResumeData(params.lang);
+  return <ResumeContent lang={params.lang} resumeData={resumeData} />;
 }
