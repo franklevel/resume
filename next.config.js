@@ -4,10 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'es'],
-  },
   // Disable server-side features for static export
   experimental: {
     appDir: true,
