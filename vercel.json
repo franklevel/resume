@@ -6,8 +6,21 @@
       "destination": "/en"
     },
     {
-      "source": "/:path((?!en|es).*)",
-      "destination": "/en"
+      "source": "/:path*",
+      "destination": "/en",
+      "has": [
+        {
+          "type": "header",
+          "key": "host"
+        }
+      ],
+      "missing": [
+        {
+          "type": "path",
+          "key": "path",
+          "value": "^(en|es).*"
+        }
+      ]
     }
   ],
   "cleanUrls": true,
