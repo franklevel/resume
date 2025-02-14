@@ -18,14 +18,18 @@ export const metadata: Metadata = {
   description: "Software developer with experience in full-stack development",
 };
 
-type Props = {
+interface LayoutProps {
   children: React.ReactNode;
-  params: { lang: string };
+  params: Promise<{
+    lang: string;
+  }>;
 }
 
-export default function RootLayout({ children, params }: Props) {
+export default async function RootLayout({ children, params }: LayoutProps) {
+  const { lang } = await params;
+
   return (
-    <html lang={params.lang} suppressHydrationWarning>
+    <html lang={lang} suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Providers>
           {children}
