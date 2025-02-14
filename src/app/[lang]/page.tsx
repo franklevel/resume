@@ -13,9 +13,10 @@ export async function generateStaticParams() {
 }
 
 type Props = {
-  params: {
-    lang: string
-  }
+  readonly params: {
+    readonly lang: string
+  },
+  readonly searchParams: { readonly [key: string]: string | string[] | undefined }
 }
 
 export default function Home({ params }: Props) {
