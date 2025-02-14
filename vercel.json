@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "/en"
+      "source": "/",
+      "destination": "/en"
     },
     {
-      "src": "/(?!en|es).*",
-      "dest": "/en"
+      "source": "/(?!en|es).*",
+      "destination": "/en"
     }
   ],
   "cleanUrls": true,
