@@ -1,16 +1,13 @@
 'use client';
 
 import React from 'react';
-import resumeDataEn from '@/data.json';
-import resumeDataEs from '@/data.es.json';
 
 interface SectionListProps {
   language: string;
+  resumeData: any; // Replace with proper type when available
 }
 
-const SectionList: React.FC<SectionListProps> = ({ language }) => {
-  const resumeData = language === 'es' ? resumeDataEs : resumeDataEn;
-
+const SectionList: React.FC<SectionListProps> = ({ language, resumeData }) => {
   return (
     <div className="space-y-12">
       {/* Profile Section */}
@@ -32,19 +29,18 @@ const SectionList: React.FC<SectionListProps> = ({ language }) => {
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
           {language === 'es' ? 'Experiencia' : 'Experience'}
         </h2>
-        <div className="space-y-6">
-          {resumeData.experience.map((exp, index) => (
-            <div key={index} className="border-l-4 border-gray-200 dark:border-gray-700 pl-4">
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100">{exp.title}</h3>
-              <p className="text-gray-600 dark:text-gray-400">{exp.company} • {exp.period}</p>
-              <ul className="list-disc list-inside mt-2 text-gray-700 dark:text-gray-300">
-                {exp.achievements.map((achievement, i) => (
-                  <li key={i}>{achievement}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+        {resumeData.experience.map((exp: any, index: number) => (
+          <div key={index} className="mb-8">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{exp.title}</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400">{exp.company}</p>
+            <p className="text-sm text-gray-500 dark:text-gray-500">{exp.period}</p>
+            <ul className="list-disc list-inside mt-2 text-gray-700 dark:text-gray-300">
+              {exp.responsibilities.map((resp: string, idx: number) => (
+                <li key={idx}>{resp}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </section>
 
       {/* Education Section */}

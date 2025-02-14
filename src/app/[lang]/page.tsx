@@ -1,4 +1,4 @@
-import PageContent from '@/components/PageContent';
+import ResumeContent from '@/components/ResumeContent';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -19,5 +19,5 @@ interface PageProps {
 
 export default async function Home({ params }: PageProps) {
   const { lang } = await params;
-  return <PageContent lang={lang} />;
+  return <ResumeContent lang={lang} />;
 }
