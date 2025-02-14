@@ -13,13 +13,13 @@ export async function generateStaticParams() {
 }
 
 type Props = {
-  readonly params: {
+  readonly params: Promise<{
     readonly lang: string
-  }
+  }>
 }
 
 export default async function Home({ params }: Props) {
-  const { lang } = params;
+  const { lang } = await params;
   
   return (
     <main className="min-h-screen bg-gray-50 dark:bg-gray-900">
