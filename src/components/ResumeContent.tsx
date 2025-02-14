@@ -2,7 +2,7 @@ import { cache } from 'react'
 import PageContent from './PageContent';
 
 const getResumeData = cache(async (lang: string) => {
-  const data = await import(`@/data${lang === 'es' ? '.es' : ''}.json`);
+  const data = await import(`../data${lang === 'es' ? '.es' : ''}.json`);
   return data.default;
 });
 
