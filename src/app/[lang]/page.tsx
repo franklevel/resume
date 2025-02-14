@@ -1,6 +1,5 @@
 import Menu from '@/components/Menu';
 import SectionList from '@/components/common/SectionList';
-import { Metadata } from 'next';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false; // Only generate pages for the languages specified in generateStaticParams
