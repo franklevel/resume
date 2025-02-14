@@ -7,7 +7,7 @@ const getResumeData = cache(async (lang: string) => {
 });
 
 interface ResumeContentProps {
-  lang: string;
+  readonly lang: string;
 }
 
 export default async function ResumeContent({ lang }: ResumeContentProps) {

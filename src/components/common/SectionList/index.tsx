@@ -3,8 +3,8 @@
 import React from 'react';
 
 interface SectionListProps {
-  language: string;
-  resumeData: any; // Replace with proper type when available
+  readonly language: string;
+  readonly resumeData: any; // Replace with proper type when available
 }
 
 const SectionList: React.FC<SectionListProps> = ({ language, resumeData }) => {

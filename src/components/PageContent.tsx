@@ -4,8 +4,8 @@ import MenuWrapper from './MenuWrapper';
 import SectionList from './common/SectionList';
 
 interface PageContentProps {
-  lang: string;
-  resumeData: any; // Replace with proper type when available
+  readonly lang: string;
+  readonly resumeData: any; // Replace with proper type when available
 }
 
 export default function PageContent({ lang, resumeData }: PageContentProps) {
