@@ -1,26 +1,10 @@
 {
   "version": 2,
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/en"
-    },
-    {
-      "source": "/:path*",
       "destination": "/en",
-      "has": [
-        {
-          "type": "header",
-          "key": "host"
-        }
-      ],
-      "missing": [
-        {
-          "type": "path",
-          "key": "path",
-          "value": "^(en|es).*"
-        }
-      ]
+      "permanent": true
     }
   ],
   "cleanUrls": true,
