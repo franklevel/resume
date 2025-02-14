@@ -1,5 +1,6 @@
 import Menu from '@/components/Menu';
 import SectionList from '@/components/common/SectionList';
+import { Metadata } from 'next';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false; // Only generate pages for the languages specified in generateStaticParams
@@ -13,13 +14,12 @@ export async function generateStaticParams() {
 }
 
 type Props = {
-  readonly params: {
-    readonly lang: string
-  },
-  readonly searchParams: { readonly [key: string]: string | string[] | undefined }
+  params: {
+    lang: string
+  }
 }
 
-export default function Home({ params }: Props) {
+export default async function Home({ params }: Props) {
   const { lang } = params;
   
   return (
