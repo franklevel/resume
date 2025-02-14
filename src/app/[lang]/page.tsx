@@ -13,8 +13,8 @@ export async function generateStaticParams() {
 }
 
 type Props = {
-  params: {
-    lang: string
+  readonly params: {
+    readonly lang: string
   }
 }
 
