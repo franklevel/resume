@@ -6,7 +6,7 @@
       "destination": "/en"
     },
     {
-      "source": "/(?!en|es).*",
+      "source": "/:path((?!en|es).*)",
       "destination": "/en"
     }
   ],
