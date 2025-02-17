@@ -12,7 +12,7 @@ export default function ResumeContent({ resumeData }: Props) {
       <div className="flex justify-end mb-4">
         <LanguageSwitcher />
       </div>
-      <SectionList data={resumeData} />
+      <SectionList resumeData={resumeData} />
     </main>
   );
 }
