@@ -16,16 +16,18 @@ export default function ResumeContent({ lang, resumeData }: Props) {
         <LanguageSwitcher />
       </div>
       
-      <header className="mb-12 text-center">
-        <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-          Frank Ruiz
-        </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-400">
-          {lang === 'es' ? 'Desarrollador de Software' : 'Software Developer'}
-        </p>
-      </header>
+      <div className="max-w-3xl mx-auto">
+        <header className="mb-12 text-center">
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+            Frank Ruiz
+          </h1>
+          <p className="text-xl text-gray-600 dark:text-gray-400">
+            {lang === 'es' ? 'Desarrollador de Software' : 'Software Developer'}
+          </p>
+        </header>
 
-      <SectionList language={lang} resumeData={resumeData} />
+        <SectionList language={lang} resumeData={resumeData} />
+      </div>
     </main>
   );
 }
