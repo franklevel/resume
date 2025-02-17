@@ -1,11 +1,7 @@
 import type { ResumeData } from '@/types/resume';
+import enData from '../data.json';
+import esData from '../data.es.json';
 
 export function loadResumeData(lang: string): ResumeData {
-  try {
-    return require(`../data${lang === 'es' ? '.es' : ''}.json`);
-  } catch (error) {
-    console.error(`Failed to load resume data for language: ${lang}`, error);
-    // Fallback to English
-    return require('../data.json');
-  }
+  return lang === 'es' ? esData : enData;
 }
