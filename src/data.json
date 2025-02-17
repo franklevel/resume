@@ -62,53 +62,53 @@
   "skills": [
     {
       "category": "Backend",
-      "items": "Node.js, Express, Java, Spring Framework, PHP, Drupal, Laravel/Lumen"
+      "items": ["Node.js", "Express", "Java", "Spring Framework", "PHP", "Drupal", "Laravel/Lumen"]
     },
     {
       "category": "Frontend",
-      "items": "React, React Native, Angular, TypeScript, JavaScript"
+      "items": ["React", "React Native", "Angular", "TypeScript", "JavaScript"]
     },
     {
       "category": "Cloud & DevOps",
-      "items": "AWS Lambda, AWS Aurora, AWS Cognito, AWS S3, CI/CD"
+      "items": ["AWS Lambda", "AWS Aurora", "AWS Cognito", "AWS S3", "CI/CD"]
     },
     {
       "category": "Databases",
-      "items": "MongoDB, PostgreSQL, DynamoDB, Aurora DB"
+      "items": ["MongoDB", "PostgreSQL", "DynamoDB", "Aurora DB"]
     },
     {
       "category": "Testing",
-      "items": "Jest, PHPUnit, Software Testing Principles"
+      "items": ["Jest", "PHPUnit", "Software Testing Principles"]
     },
     {
       "category": "Tools",
-      "items": "Git, Docker, Bamboo, JIRA, Agile"
+      "items": ["Git", "Docker", "Bamboo", "JIRA", "Agile"]
     }
   ],
   "projects": [
     {
       "title": "AttorneyShare",
-      "technologies": "Node.js • TypeScript • AWS",
+      "technologies": ["Node.js", "TypeScript", "AWS"],
       "description": "Developed scalable backend solutions for a legal professional platform, implementing secure API endpoints and efficient data handling."
     },
     {
       "title": "Sydney Health Mobile Telehealth",
-      "technologies": "React Native • TypeScript • REST API",
+      "technologies": ["React Native", "TypeScript", "REST API"],
       "description": "Built a telehealth mobile application enabling remote medical consultations and health monitoring."
     },
     {
       "title": "Hoddie Cannabis Industry Analytics",
-      "technologies": "AWS Lambda • Node.js • GraphQL • Hasura",
+      "technologies": ["AWS Lambda", "Node.js", "GraphQL", "Hasura"],
       "description": "Created an analytics PWA for the cannabis industry, implementing complex data visualization and real-time analytics."
     },
     {
       "title": "Content Creator Platform",
-      "technologies": "Next.js • AWS • TypeScript",
+      "technologies": ["Next.js", "AWS", "TypeScript"],
       "description": "Built a SaaS platform for content creators with features for content management, user engagement, and analytics."
     },
     {
       "title": "Unused Dependencies Analyzer",
-      "technologies": "Node.js • TypeScript • NPM Package",
+      "technologies": ["Node.js", "TypeScript", "NPM Package"],
       "description": "Created an NPM package that analyzes and identifies unused dependencies in Node.js projects, helping developers maintain clean and efficient codebases. Features interactive CLI and detailed package analysis."
     }
   ]

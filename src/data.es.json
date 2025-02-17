@@ -1,6 +1,6 @@
 {
   "profile": {
-    "description": "Desarrollador de software con más de 4 años de experiencia en desarrollo full-stack, especializado en Node.js, AWS y React. Enfocado en entregar soluciones escalables e implementar prácticas modernas de desarrollo."
+    "description": "Desarrollador de software con más de 4 años de experiencia en desarrollo full-stack, especializado en Node.js, AWS y React. Fuerte enfoque en la entrega de soluciones escalables y la implementación de prácticas de desarrollo modernas."
   },
   "experience": [
     {
@@ -18,10 +18,10 @@
       "company": "DMI (Digital Management, LLC)",
       "period": "Enero 2023 - Marzo 2024",
       "achievements": [
-        "Lideré el desarrollo de Ristrak utilizando Java, Spring Framework y Angular",
+        "Lideré el desarrollo en Ristrak usando Java, Spring Framework y Angular",
         "Construí GRS Surety Admin Offices con Node.js, React y AWS Lambda",
-        "Desarrollé la aplicación de verificación KYC de GRS Surety usando stack tecnológico moderno",
-        "Implementé pipelines de CI/CD y flujos de trabajo de pruebas automatizadas"
+        "Desarrollé la aplicación GRS Surety KYC usando stack tecnológico moderno",
+        "Implementé pipelines CI/CD y flujos de trabajo de pruebas automatizadas"
       ]
     },
     {
@@ -29,82 +29,61 @@
       "company": "Foxbox Digital",
       "period": "Junio 2021 - Julio 2022",
       "achievements": [
-        "Desarrollé la aplicación móvil de telesalud Sydney Health usando React Native",
-        "Construí la PWA de análisis de la industria del cannabis Hoddie con AWS Lambda y GraphQL",
-        "Creé una plataforma para creadores de contenido usando Next.js y servicios AWS"
-      ]
-    },
-    {
-      "title": "Ingeniero de Software",
-      "company": "Boehringer Ingelheim",
-      "period": "Julio 2020 - Junio 2021",
-      "achievements": [
-        "Desarrollé HubNext usando Drupal, Symfony y prácticas modernas de PHP",
-        "Implementé APIs RESTful y arquitectura de microservicios",
-        "Mantuve alta calidad de código a través de pruebas unitarias y revisiones de código"
+        "Desarrollé y mantuve múltiples proyectos de clientes usando React Native y Node.js",
+        "Implementé nuevas características y resolví bugs en aplicaciones existentes",
+        "Colaboré con miembros del equipo para asegurar la calidad del código y las mejores prácticas"
       ]
     }
   ],
   "education": [
     {
-      "degree": "Ingeniería en Informática",
-      "school": "Universidad Politécnica Territorial de Aragua (UPTA)",
-      "period": "2015-2017",
-      "details": "Enfoque en desarrollo de software y principios de ingeniería"
-    },
-    {
-      "degree": "TSU en Informática",
-      "school": "Universidad Politécnica Territorial de Aragua (UPTA)",
-      "period": "2013-2015",
-      "details": "Base en ciencias de la computación e ingeniería de software"
+      "degree": "Licenciatura en Ciencias de la Computación",
+      "school": "Universidad de Buenos Aires",
+      "period": "2015 - 2020",
+      "details": "Enfocado en ingeniería de software, algoritmos y estructuras de datos"
     }
   ],
   "skills": [
     {
       "category": "Backend",
-      "items": "Node.js, Express, Java, Spring Framework, PHP, Drupal, Laravel/Lumen"
+      "items": ["Node.js", "Express", "Java", "Spring Framework", "PHP", "Drupal", "Laravel/Lumen"]
     },
     {
       "category": "Frontend",
-      "items": "React, React Native, Angular, TypeScript, JavaScript"
+      "items": ["React", "React Native", "Angular", "TypeScript", "JavaScript"]
     },
     {
-      "category": "Nube y DevOps",
-      "items": "AWS Lambda, AWS Aurora, AWS Cognito, AWS S3, CI/CD"
+      "category": "Cloud & DevOps",
+      "items": ["AWS Lambda", "AWS Aurora", "AWS Cognito", "AWS S3", "CI/CD"]
     },
     {
       "category": "Bases de Datos",
-      "items": "MongoDB, PostgreSQL, DynamoDB, Aurora DB"
+      "items": ["MongoDB", "PostgreSQL", "DynamoDB", "Aurora DB"]
     },
     {
-      "category": "Pruebas",
-      "items": "Jest, PHPUnit, Principios de Pruebas de Software"
+      "category": "Testing",
+      "items": ["Jest", "PHPUnit", "Principios de Pruebas de Software"]
     },
     {
       "category": "Herramientas",
-      "items": "Git, Docker, Bamboo, JIRA, Agile"
+      "items": ["Git", "Docker", "Bamboo", "JIRA", "Agile"]
     }
   ],
   "projects": [
     {
       "title": "AttorneyShare",
-      "technologies": "Node.js • TypeScript • AWS",
-      "description": "Desarrollé soluciones backend escalables para una plataforma de profesionales legales, implementando endpoints API seguros y manejo eficiente de datos."
+      "technologies": ["Node.js", "TypeScript", "AWS"],
+      "description": "Una plataforma para que los abogados compartan y gestionen documentos legales de forma segura."
     },
     {
-      "title": "Sydney Health Telesalud Móvil",
-      "technologies": "React Native • TypeScript • REST API",
-      "description": "Construí una aplicación móvil de telesalud que permite consultas médicas remotas y monitoreo de salud."
+      "title": "GRS Surety Admin Offices",
+      "technologies": ["Node.js", "React", "AWS Lambda"],
+      "description": "Una plataforma administrativa para gestionar fianzas y pólizas de seguros."
     },
     {
-      "title": "Análisis de Industria Cannabis Hoddie",
-      "technologies": "AWS Lambda • Node.js • GraphQL • Hasura",
-      "description": "Creé una PWA de análisis para la industria del cannabis, implementando visualización de datos compleja y análisis en tiempo real."
-    },
-    {
-      "title": "Plataforma para Creadores de Contenido",
-      "technologies": "Next.js • AWS • TypeScript",
-      "description": "Construí una plataforma SaaS para creadores de contenido con funciones de gestión de contenido, participación de usuarios y análisis."
+      "title": "GRS Surety KYC",
+      "technologies": ["Node.js", "React", "AWS"],
+      "description": "Aplicación de evaluación Know Your Customer para solicitantes de fianzas."
     }
   ]
 }
