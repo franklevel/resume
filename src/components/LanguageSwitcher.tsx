@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslation } from 'react-i18next';
+import { LanguageIcon } from '@heroicons/react/24/outline';
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
@@ -13,9 +14,13 @@ export default function LanguageSwitcher() {
   return (
     <button
       onClick={toggleLanguage}
-      className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50"
+      className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-1"
+      aria-label="Toggle language"
     >
-      {i18n.language === 'en' ? 'Español' : 'English'}
+      <LanguageIcon className="h-5 w-5 text-gray-600 dark:text-gray-400" />
+      <span className="text-sm text-gray-600 dark:text-gray-400 font-medium uppercase">
+        {i18n.language}
+      </span>
     </button>
   );
 }
