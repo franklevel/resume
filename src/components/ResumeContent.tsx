@@ -25,6 +25,14 @@ export default function ResumeContent({ lang, resumeData }: Props) {
           <p className="text-xl text-gray-600 dark:text-gray-400">
             {lang === 'es' ? 'Desarrollador de Software' : 'Software Developer'}
           </p>
+          <a
+            href="https://calendar.google.com/calendar/u/1?cid=ZnJhbmsucnVpei5hckBnbWFpbC5jb20"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 px-4 py-2 text-gray-600 dark:text-gray-400 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+          >
+            {lang === 'es' ? 'Agendar una entrevista' : 'Book an interview'}
+          </a>
         </header>
 
         <SectionList language={lang} resumeData={resumeData} />
