@@ -9,5 +9,5 @@ export default function Home() {
   const { i18n } = useTranslation();
   const resumeData = loadResumeData(i18n.language);
 
-  return <ResumeContent resumeData={resumeData} />;
+  return <ResumeContent lang={i18n.language} resumeData={resumeData} />;
 }
