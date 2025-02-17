@@ -1,8 +1,13 @@
-import { redirect } from 'next/navigation';
-import { defaultLocale } from '@/config/i18n';
+'use client';
 
-export const dynamic = 'force-static';
+import ResumeContent from '@/components/ResumeContent';
+import { loadResumeData } from '@/utils/loadResumeData';
+import { useTranslation } from 'react-i18next';
+import '../i18n/config';
 
 export default function RootPage() {
-  redirect(`/${defaultLocale}`);
+  const { i18n } = useTranslation();
+  const resumeData = loadResumeData(i18n.language);
+
+  return <ResumeContent lang={i18n.language} resumeData={resumeData} />;
 }
