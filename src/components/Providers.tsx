@@ -9,8 +9,8 @@ export function Providers({ children }: { children: React.ReactNode }) {
     <I18nextProvider i18n={i18n}>
       <ThemeProvider
         attribute="class"
-        defaultTheme="system"
-        enableSystem={true}
+        defaultTheme="light"
+        enableSystem={false}
         disableTransitionOnChange
       >
         {children}
