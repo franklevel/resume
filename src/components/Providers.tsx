@@ -7,7 +7,12 @@ import i18n from "../i18n";
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <I18nextProvider i18n={i18n}>
-      <ThemeProvider attribute="class">
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem={true}
+        disableTransitionOnChange
+      >
         {children}
       </ThemeProvider>
     </I18nextProvider>
