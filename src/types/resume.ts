@@ -14,12 +14,12 @@ export interface Education {
 
 export interface Skill {
   readonly category: string;
-  readonly items: string;
+  readonly items: readonly string[];
 }
 
 export interface Project {
   readonly title: string;
-  readonly technologies: string;
+  readonly technologies: readonly string[];
   readonly description: string;
 }
 

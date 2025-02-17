@@ -2,21 +2,19 @@
 
 import React from 'react';
 import type { ResumeData } from '@/types/resume';
-import { useTranslation } from 'react-i18next';
 
 interface SectionListProps {
+  readonly language: string;
   readonly resumeData: ResumeData;
 }
 
-const SectionList: React.FC<SectionListProps> = ({ resumeData }) => {
-  const { i18n } = useTranslation();
-
+const SectionList: React.FC<SectionListProps> = ({ language, resumeData }) => {
   return (
     <div className="space-y-12">
       {/* Profile Section */}
       <section>
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
-          {i18n.language === 'es' ? 'Perfil' : 'Profile'}
+          {language === 'es' ? 'Perfil' : 'Profile'}
         </h2>
         <div className="space-y-4">
           <div className="border-l-4 border-gray-200 dark:border-gray-700 pl-4">
@@ -30,7 +28,7 @@ const SectionList: React.FC<SectionListProps> = ({ resumeData }) => {
       {/* Experience Section */}
       <section id="experience">
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
-          {i18n.language === 'es' ? 'Experiencia' : 'Experience'}
+          {language === 'es' ? 'Experiencia' : 'Experience'}
         </h2>
         <div className="space-y-8">
           {resumeData.experience.map((exp, index) => (
@@ -51,7 +49,7 @@ const SectionList: React.FC<SectionListProps> = ({ resumeData }) => {
       {/* Education Section */}
       <section id="education">
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
-          {i18n.language === 'es' ? 'Educación' : 'Education'}
+          {language === 'es' ? 'Educación' : 'Education'}
         </h2>
         <div className="space-y-8">
           {resumeData.education.map((edu, index) => (
@@ -68,7 +66,7 @@ const SectionList: React.FC<SectionListProps> = ({ resumeData }) => {
       {/* Skills Section */}
       <section id="skills">
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
-          {i18n.language === 'es' ? 'Habilidades' : 'Skills'}
+          {language === 'es' ? 'Habilidades' : 'Skills'}
         </h2>
         <div className="space-y-6">
           {resumeData.skills.map((skillGroup, index) => (
@@ -94,7 +92,7 @@ const SectionList: React.FC<SectionListProps> = ({ resumeData }) => {
       {/* Projects Section */}
       <section id="projects">
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
-          {i18n.language === 'es' ? 'Proyectos' : 'Projects'}
+          {language === 'es' ? 'Proyectos' : 'Projects'}
         </h2>
         <div className="space-y-8">
           {resumeData.projects.map((project, index) => (
