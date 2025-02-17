@@ -2,6 +2,7 @@ import type { ResumeData } from '@/types/resume';
 import SectionList from './common/SectionList';
 import LanguageSwitcher from './LanguageSwitcher';
 import ThemeSwitcher from './ThemeSwitcher';
+import ScrollToTop from './ScrollToTop';
 
 interface Props {
   lang: string;
@@ -28,6 +29,8 @@ export default function ResumeContent({ lang, resumeData }: Props) {
 
         <SectionList language={lang} resumeData={resumeData} />
       </div>
+
+      <ScrollToTop />
     </main>
   );
 }
