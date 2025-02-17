@@ -19,7 +19,7 @@ export default function ResumeContent({ lang, resumeData }: Props) {
       
       <div className="max-w-3xl mx-auto">
         <header className="mb-12 text-center">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-2 glow-effect">
             Frank Ruiz
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400">

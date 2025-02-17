@@ -13,7 +13,7 @@ const SectionList: React.FC<SectionListProps> = ({ language, resumeData }) => {
     <div className="space-y-12">
       {/* Profile Section */}
       <section>
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100 glow-effect">
           {language === 'es' ? 'Perfil' : 'Profile'}
         </h2>
         <div className="space-y-4">
@@ -27,7 +27,7 @@ const SectionList: React.FC<SectionListProps> = ({ language, resumeData }) => {
 
       {/* Experience Section */}
       <section id="experience">
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100 glow-effect">
           {language === 'es' ? 'Experiencia' : 'Experience'}
         </h2>
         <div className="space-y-8">
@@ -48,7 +48,7 @@ const SectionList: React.FC<SectionListProps> = ({ language, resumeData }) => {
 
       {/* Education Section */}
       <section id="education">
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100 glow-effect">
           {language === 'es' ? 'Educación' : 'Education'}
         </h2>
         <div className="space-y-8">
@@ -65,15 +65,13 @@ const SectionList: React.FC<SectionListProps> = ({ language, resumeData }) => {
 
       {/* Skills Section */}
       <section id="skills">
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100 glow-effect">
           {language === 'es' ? 'Habilidades' : 'Skills'}
         </h2>
         <div className="space-y-6">
           {resumeData.skills.map((skillGroup, index) => (
             <div key={index} className="border-l-4 border-gray-200 dark:border-gray-700 pl-4">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                {skillGroup.category}
-              </h3>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">{skillGroup.category}</h3>
               <div className="flex flex-wrap gap-2">
                 {skillGroup.items.map((skill, idx) => (
                   <span
@@ -91,7 +89,7 @@ const SectionList: React.FC<SectionListProps> = ({ language, resumeData }) => {
 
       {/* Projects Section */}
       <section id="projects">
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100 glow-effect">
           {language === 'es' ? 'Proyectos' : 'Projects'}
         </h2>
         <div className="space-y-8">
